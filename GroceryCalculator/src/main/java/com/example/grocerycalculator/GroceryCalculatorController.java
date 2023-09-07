@@ -40,7 +40,7 @@ public class GroceryCalculatorController {
     private TextField text1, text2, text3, text4, text5, text6, text7, text8;
 
     @FXML
-    private ChoiceBox<Integer> weights1, weights2, weights3, weights4, weights5, weights6, weights7, weights8;
+    private ChoiceBox weights1, weights2, weights3, weights4, weights5, weights6, weights7, weights8;
 
 
     @FXML
