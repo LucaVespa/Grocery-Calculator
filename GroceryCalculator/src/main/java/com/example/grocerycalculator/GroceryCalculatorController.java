@@ -25,7 +25,7 @@ public class GroceryCalculatorController {
     private final String [] namesArray = new String [] {null, "User 1", "User 2", "User 3", "User 4", "User 5", "User 6", "User 7", "User 8"};
 
     @FXML
-    private ChoiceBox<Integer> boxChooser;
+    private ChoiceBox boxChooser;
 
     @FXML
     private TextField namePicker, itemCost, itemName, totalText;
@@ -112,7 +112,6 @@ public class GroceryCalculatorController {
             errorMsg.setText("Saved to: " + file.getCanonicalPath());
             writer.close();
         } catch (IOException e){
-            //e.printStackTrace();
             errorMsg.setText("Error Creating Save");
         }
 
